@@ -1,0 +1,60 @@
+# OS generated files #
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+._*
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+.vscode/
+
+# JetBrains' Project File
+.idea/
+
+# Sonar Scanner Temporary Directory
+.scannerwork/
+
+# build directory has to be managed
+!build/
+
+# Java binaries
+target/
+
+# Eclipse's Project File
+.project
+.classpath
+
+# Log file
+*.log
+
+# JVM crash logs
+hs_err_pid*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# ignore all files in the build/ directory
+node_modules/
+dist/
